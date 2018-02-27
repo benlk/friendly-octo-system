@@ -8,12 +8,29 @@
 	</head>
 	<body>
 
+		<h1 class="bigtext">
+			<span>
+				<rainbow>Thank you</rainbow>
+			</span>
+			<span>
+				<rainbow>to our</rainbow>
+			</span>
+			<span>
+				<rainbow>fearless</rainbow>
+			</span>
+			<span>
+				<rainbow>leader</rainbow>
+			</span>
+		</h1>
+
+
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 		<script src="rainbows.js" type="text/javascript"></script>
 		<script src="bigtext.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			function autorun()
 			{
+				jQuery( '.bigtext' ).bigtext();
 			}
 			if (document.addEventListener) {
 				document.addEventListener("DOMContentLoaded", autorun, false);
